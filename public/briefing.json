@@ -1,0 +1,42 @@
+{
+  "updatedAt": "2026-11-28T10:41:47.937Z",
+  "briefing": "Alright, grab your fourth cup, because today we've got scientists fiddling with \"tiny UV light chips\" for quantum computers and discovering \"strange new forms of magnetism\" in simple metals. Apparently, Einstein’s 120-year-old theory might even be \"missing something big about the Big Bang.\" Great. While they're busy rewriting physics and chasing theoretical future tech for the mythical \"quantum internet,\" the rest of us are still trying to get a stable build and dealing with production incidents. Priorities, people.\n\nSpeaking of things that actually exist, guess what? A *password manager* got hacked. Yes, pCloud Pass, the thing whose *one job* is to keep your passwords safe, apparently couldn't even manage that, with users getting suspicious login alerts *even with 2FA enabled*. Meanwhile, medical tech giant Boston Scientific is sending out breach notices because some unfortunate soul fell for a voice phishing attack, exposing a goldmine of personal patient data. Remember all those expensive security trainings? Apparently, they’re just background noise for people on their third Zoom call of the day.\n\nAnd because nothing says \"Happy Thanksgiving\" like a publicly disclosed, unpatched zero-day, a researcher conveniently dropped an RCE exploit for Cacti network monitoring, callable with just *four HTTP requests*. \"4HTTP2SHELL,\" they call it. While the eggheads are theorizing about quark-gluon plasma, our actual, deployed infrastructure is getting pwned by a guy named \"ek0ms savi0r\" from the \"Church of Malware.\" Welcome to the future, where our grand technological advancements are still held together by literal duct tape and the sheer audacity of unpatched open source. Now, if you'll excuse me, my JIRA board just spontaneously combusted.",
+  "evidence": [
+    {
+      "source": "ScienceDaily Nanotech",
+      "title": "Harvard’s tiny UV light chip could help shrink quantum computers",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261126063333.htm",
+      "facts": "• Ultraviolet (UV) light is already essential to a wide range of modern technologies.\n• Beyond its natural presence in sunlight, it is used to disinfect surfaces, make biological materials fluoresce, and manufacture computer chips through a process called photolithography.\n• In the future, microscopic sources of UV light built directly into photonic chips could enable smaller quantum computers, ultra-precise atomic clocks, and other advanced technologies."
+    },
+    {
+      "source": "ScienceDaily Nanotech",
+      "title": "A simple metal is hiding a strange new form of magnetism",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261123005341.htm",
+      "facts": "• A surprisingly simple metal has revealed an unusual form of magnetism that could open new possibilities for quantum technology.\n• Researchers have found compelling evidence of a rare magnetic state in which electrons behave in unexpected ways, even though the material produces no overall magnetization.\n• The material, known as europium silicide (EuSi), contains an intricate magnetic structure that influences how electrons move and how their spins are oriented."
+    },
+    {
+      "source": "ScienceDaily Nanotech",
+      "title": "Einstein’s 120-year-old theory may be missing something big about the Big Bang",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261121221119.htm",
+      "facts": "• In the earliest moments after the Big Bang, the universe was filled with an extraordinarily hot mixture of particles known as quark-gluon plasma.\n• Temperatures reached trillions of degrees, and quarks and gluons raced through this primordial soup at nearly the speed of light.\n• This extreme state of matter existed for only a few microseconds before quarks began combining into the more stable protons and neutrons that eventually helped form the matter around us."
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "pCloud confirms password manager hack after suspicious login alerts",
+      "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+      "facts": "• The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled.\n• The incident was first reported by numerous pCloud customers who began receiving email notifications informing them that a new device had connected to their pCloud Pass accounts.\n• In two Reddit threads, customers worldwide reported receiving notifications warning that an unfamiliar device named \"pd\" connected to their account from the IP address 45.131.244.7 in Luxembourg, which users say belongs to pCloud's own infrastructure."
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "New Boston Scientific data breach exposes personal, medical info",
+      "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+      "facts": "• Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm.\n• According to a notification sample Boston Scientific shared with U.S. authorities, the hacker used social engineering in a voice phishing (vishing) attack to gain access to the company's cloud infrastructure.\n• The attack exposed cloud-based applications and cloud-hosted data between May 7 and 1."
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+      "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+      "facts": "• A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers.\n• The exploit, dubbed \"4HTTP2SHELL\" (previously 4HTTP2ROOT), was published on Thanksgiving Day by a cybersecurity researcher known as ek0ms savi0r from the Church of Malware, who demonstrated how the vulnerability can be exploited using just four HTTP requests.\n• Cacti is an open-source network monitoring and graphing tool used to monitor the performance of servers, routers, switches, firewalls, and other network infrastructure."
+    }
+  ]
+}
